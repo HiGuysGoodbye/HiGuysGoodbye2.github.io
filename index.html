@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Personal Website</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">My Introduction</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Photos</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Luigi</span><br> IT Student</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__img">
+                    <video id="vid" width="539" height="360" controls>
+                        <source src="images/WIN_20221209_22_06_50_Pro.mp4" type="video/mp4">
+                    </video>
+                    <br></br>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="images/pic.jpg.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">My Name Is Luigi Rey</h2>
+                        <p class="about__text">I am an IT student at Adamson University. I was born in July 8, 2003, in Davao City.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Photo Album</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="ch/ch1.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="ch/ch2.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="ch/ch3.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="ch/gr9.png" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="ch/img6.jpg.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="ch/picccc.png" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contacts</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Click" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Click the button for my SNS</p>
+            <button type="button" onclick="location.href='https://www.facebook.com/luigi.5678/'"> Social Media Link</button>
+            <p class="footer__copy">&#169; Luigi Revelar Rey</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
